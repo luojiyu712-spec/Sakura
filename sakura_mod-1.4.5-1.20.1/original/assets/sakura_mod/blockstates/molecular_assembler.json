@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,lit=false": { "model": "sakura_mod:block/molecular_assembler" },
+    "facing=east,lit=false":  { "model": "sakura_mod:block/molecular_assembler", "y": 90 },
+    "facing=south,lit=false": { "model": "sakura_mod:block/molecular_assembler", "y": 180 },
+    "facing=west,lit=false":  { "model": "sakura_mod:block/molecular_assembler", "y": 270 },
+    "facing=north,lit=true":  { "model": "sakura_mod:block/molecular_assembler" },
+    "facing=east,lit=true":   { "model": "sakura_mod:block/molecular_assembler", "y": 90 },
+    "facing=south,lit=true":  { "model": "sakura_mod:block/molecular_assembler", "y": 180 },
+    "facing=west,lit=true":   { "model": "sakura_mod:block/molecular_assembler", "y": 270 }
+  }
+}

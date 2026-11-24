@@ -1,0 +1,54 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "pattern": [
+    "KKKKKKKKK",
+    "KNEJMJENK",
+    "KEBHCHBEK",
+    "KJHLGLHJK",
+    "KMCGFGCMK",
+    "KJHLGLHJK",
+    "KEBHCHBEK",
+    "KNEJMJENK",
+    "KKKKKKKKK"
+  ],
+  "key": {
+    "B": {
+      "item": "alexscaves:magnetic_activator"
+    },
+    "C": {
+      "item": "traveloptics:void_spellweave_ingot"
+    },
+    "E": {
+      "item": "traveloptics:plasma_power_cell"
+    },
+    "F": {
+      "item": "traveloptics:pocket_black_hole"
+    },
+    "G": {
+      "item": "beyonddimensions:stable_space_time_fragment"
+    },
+    "H": {
+      "item": "createutilities:void_steel_ingot"
+    },
+    "J": {
+      "item": "sakura_mod:sakura_component"
+    },
+    "K": {
+      "item": "sakura_mod:sakura_block"
+    },
+    "L": {
+      "item": "beyonddimensions:space_time_stable_frame"
+    },
+    "M": {
+      "item": "fluidlogistics:potato_server"
+    },
+    "N": {
+      "item": "touhou_little_maid_spell:dream_cat_crystal"
+    }
+  },
+    "result": {
+      "item": "sakura_mod:gravcore1",
+      "count": 1
+    }
+}

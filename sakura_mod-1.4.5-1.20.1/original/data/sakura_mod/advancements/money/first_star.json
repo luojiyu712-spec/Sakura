@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_star" },
+    "title": { "translate": "advancements.sakura_mod.money.first_star.title" },
+    "description": { "translate": "advancements.sakura_mod.money.first_star.description" },
+    "frame": "task"
+  },
+  "parent": "sakura_mod:money/first_diamond",
+  "criteria": {
+    "get_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["sakura_mod:sakura_star"] }
+        ]
+      }
+    }
+  }
+}

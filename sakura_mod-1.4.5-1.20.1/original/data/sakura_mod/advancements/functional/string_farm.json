@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:string_farm" },
+    "title": { "translate": "advancements.sakura_mod.functional.string_farm.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.string_farm.description" },
+    "frame": "task"
+  },
+  "parent": "sakura_mod:root",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sakura_mod:string_farm"
+      }
+    }
+  }
+}

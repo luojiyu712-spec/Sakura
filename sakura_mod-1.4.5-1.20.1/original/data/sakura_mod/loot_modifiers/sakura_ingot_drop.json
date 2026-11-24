@@ -1,0 +1,13 @@
+{
+  "type": "sakura_mod:sakura_loot",
+  "conditions": [
+    { "condition": "minecraft:killed_by_player" }
+  ],
+  "item": "sakura_mod:sakura_ingot",
+  "chance": 0.0001,
+  "luck_bonus": 0.00,
+  "looting_bonus": 0.00,
+  "min_count": 1,
+  "max_count": 2,
+  "drop_from": "mob"
+}

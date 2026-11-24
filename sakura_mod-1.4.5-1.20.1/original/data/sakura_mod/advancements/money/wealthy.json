@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_check_10m" },
+    "title": { "translate": "advancements.sakura_mod.money.wealthy.title" },
+    "description": { "translate": "advancements.sakura_mod.money.wealthy.description" },
+    "frame": "goal"
+  },
+  "parent": "sakura_mod:money/first_star",
+  "criteria": {
+    "get_10k": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_check_10k"] }]
+      }
+    },
+    "get_100k": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_check_100k"] }]
+      }
+    },
+    "get_1m": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_check_1m"] }]
+      }
+    },
+    "get_10m": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_check_10m"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["get_10k", "get_100k", "get_1m", "get_10m"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "sakura_mod:sakura_block",
+    "sakura_mod:blazing_rock",
+    "sakura_mod:cobble_generator",
+    "sakura_mod:barrier_stone",
+    "sakura_mod:controller",
+    "sakura_mod:molecular_assembler",
+    "sakura_mod:neoforge"
+  ]
+}

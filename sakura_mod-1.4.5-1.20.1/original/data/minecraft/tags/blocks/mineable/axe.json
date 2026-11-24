@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "sakura_mod:string_farm",
+    "sakura_mod:chicken_coop",
+    "sakura_mod:bee_honey_block"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_diamond" },
+    "title": { "translate": "advancements.sakura_mod.money.first_diamond.title" },
+    "description": { "translate": "advancements.sakura_mod.money.first_diamond.description" },
+    "frame": "task"
+  },
+  "parent": "sakura_mod:money/first_coin",
+  "criteria": {
+    "get_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["sakura_mod:sakura_diamond"] }
+        ]
+      }
+    }
+  }
+}

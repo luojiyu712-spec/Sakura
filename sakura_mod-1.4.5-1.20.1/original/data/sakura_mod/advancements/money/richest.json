@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_check_100b" },
+    "title": { "translate": "advancements.sakura_mod.money.richest.title" },
+    "description": { "translate": "advancements.sakura_mod.money.richest.description" },
+    "frame": "challenge"
+  },
+  "parent": "sakura_mod:money/wealthy",
+  "criteria": {
+    "get_100b": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["sakura_mod:sakura_check_100b"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "WAC",
+    "SSS"
+  ],
+  "key": {
+    "S": { "item": "minecraft:smooth_stone" },
+    "W": { "item": "minecraft:water_bucket" },
+    "A": { "item": "create:andesite_casing" },
+    "C": { "item": "minecraft:lava_bucket" }
+  },
+  "result": { "item": "sakura_mod:cobble_generator" }
+}

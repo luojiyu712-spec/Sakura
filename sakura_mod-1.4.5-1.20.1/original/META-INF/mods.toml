@@ -1,0 +1,75 @@
+# =====================================================================
+# Sakura Mod - mods.toml
+# =====================================================================
+
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+# issueTrackerURL=""
+
+# =====================================================================
+# 模组主体
+# =====================================================================
+[[mods]]
+modId="sakura_mod"
+version="1.4.5-1.20.1"
+displayName="Sakura Mod"
+authors="Luo_jiyv, ChatGPT, DeepSeek(You're the wind beneath my wings!)"
+description='''Hi there~ Welcome to our server!'''
+
+logoFile="sakura_mod.png"
+# credits=""
+# displayURL=""
+# updateJSONURL=""
+# displayTest="MATCH_VERSION"
+
+# =====================================================================
+# 依赖：Forge
+# =====================================================================
+[[dependencies.sakura_mod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+# =====================================================================
+# 依赖：Minecraft
+# =====================================================================
+[[dependencies.sakura_mod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+# =====================================================================
+# 依赖：Curios（物品注册和装备事件均需要，客户端与服务端必装）
+# =====================================================================
+[[dependencies.sakura_mod]]
+modId="curios"
+mandatory=true
+versionRange="[5.4.0,)"
+ordering="AFTER"
+side="BOTH"
+
+# =====================================================================
+# 依赖：Create（可选，用于集成刷石机 / 炽炼岩）
+# =====================================================================
+[[dependencies.sakura_mod]]
+modId="create"
+mandatory=false
+versionRange="[0.5.1,)"
+ordering="AFTER"
+side="BOTH"
+
+# =====================================================================
+# 依赖：Cloth Config（可选，仅用于游戏内图形配置界面）
+# =====================================================================
+[[dependencies.sakura_mod]]
+modId="cloth_config"
+mandatory=false
+versionRange="[11.0.0,)"
+ordering="AFTER"
+side="CLIENT"

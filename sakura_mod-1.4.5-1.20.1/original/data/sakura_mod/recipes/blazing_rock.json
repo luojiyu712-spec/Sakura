@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    { "type": "forge:item_exists", "item": "create:copper_casing" },
+    { "type": "forge:item_exists", "item": "quark:grate" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "PLP",
+    " G "
+  ],
+  "key": {
+    "C": { "item": "create:copper_casing" },
+    "P": { "tag": "forge:glass_panes" },
+    "L": { "item": "minecraft:lava_bucket" },
+    "G": { "item": "quark:grate" }
+  },
+  "result": { "item": "sakura_mod:blazing_rock" }
+}

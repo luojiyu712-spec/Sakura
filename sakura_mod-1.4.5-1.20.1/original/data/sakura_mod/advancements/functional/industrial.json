@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:cobble_generator" },
+    "title": { "translate": "advancements.sakura_mod.functional.industrial.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.industrial.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sakura_mod:root",
+  "criteria": {
+    "place_chicken_coop": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "sakura_mod:chicken_coop"
+          }
+        ]
+      }
+    },
+    "place_bee_honey": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "sakura_mod:bee_honey_block"
+          }
+        ]
+      }
+    },
+    "place_cobble_generator": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "sakura_mod:cobble_generator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["place_chicken_coop", "place_bee_honey", "place_cobble_generator"]
+  ]
+}

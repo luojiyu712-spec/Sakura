@@ -1,0 +1,23 @@
+{
+  "parent": "sakura_mod:story/golden_cube_anomaly",
+  "display": {
+    "icon": {
+      "item": "sakura_mod:twisted_meat_raw"
+    },
+    "title": {
+      "translate": "advancements.sakura_mod.story.twisted_meat_gourmet.title"
+    },
+    "description": {
+      "translate": "advancements.sakura_mod.story.twisted_meat_gourmet.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

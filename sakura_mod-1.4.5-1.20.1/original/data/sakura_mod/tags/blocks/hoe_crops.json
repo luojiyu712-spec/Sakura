@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#forge:crops", "required": false },
+    { "id": "#c:crops", "required": false },
+    "#sakura_mod:hoe_hanging_crops",
+    "#sakura_mod:hoe_hanging_crop_supports",
+    { "id": "kaleidoscope_tavern:wild_grapevine_plant", "required": false },
+    "minecraft:pumpkin_stem",
+    "minecraft:melon_stem",
+    "minecraft:cocoa",
+    "minecraft:sweet_berry_bush",
+    "minecraft:bamboo",
+    "minecraft:bamboo_sapling",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant"
+  ]
+}

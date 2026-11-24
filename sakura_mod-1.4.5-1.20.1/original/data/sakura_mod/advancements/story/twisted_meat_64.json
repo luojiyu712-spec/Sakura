@@ -1,0 +1,23 @@
+{
+  "parent": "sakura_mod:story/twisted_meat_gourmet",
+  "display": {
+    "icon": {
+      "item": "sakura_mod:twisted_meat_cooked"
+    },
+    "title": {
+      "translate": "advancements.sakura_mod.story.twisted_meat_64.title"
+    },
+    "description": {
+      "translate": "advancements.sakura_mod.story.twisted_meat_64.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

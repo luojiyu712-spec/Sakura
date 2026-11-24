@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_repair_kit" },
+    "title": { "translate": "advancements.sakura_mod.functional.ding_ding.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.ding_ding.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sakura_mod:legendary_metal",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

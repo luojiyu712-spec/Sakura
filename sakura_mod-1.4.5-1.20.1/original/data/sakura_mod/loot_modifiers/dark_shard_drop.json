@@ -1,0 +1,13 @@
+{
+  "type": "sakura_mod:sakura_loot",
+  "conditions": [
+    { "condition": "minecraft:killed_by_player" }
+  ],
+  "item": "sakura_mod:dark_transcendent_shard",
+  "chance": 0.001,
+  "luck_bonus": 0.0,
+  "looting_bonus": 0.0,
+  "min_count": 1,
+  "max_count": 1,
+  "drop_from": "undead"
+}

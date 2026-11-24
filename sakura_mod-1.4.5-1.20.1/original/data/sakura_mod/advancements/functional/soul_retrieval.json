@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:enchanted_book" },
+    "title": { "translate": "advancements.sakura_mod.functional.soul_retrieval.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.soul_retrieval.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sakura_mod:legendary_metal",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

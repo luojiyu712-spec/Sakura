@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:gravcore" },
+    "title": { "translate": "advancements.sakura_mod.functional.gravcore.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.gravcore.description" },
+    "frame": "challenge"
+  },
+  "parent": "sakura_mod:root",
+  "criteria": {
+    "get_gravcore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["sakura_mod:gravcore"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

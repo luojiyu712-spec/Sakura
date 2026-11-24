@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "DSD",
+    " D "
+  ],
+  "key": {
+    "S": {
+      "item": "sakura_mod:sakura_star"
+    },
+    "D": {
+      "tag": "sakura_mod:diamond_tools"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:sakura_repair_kit",
+    "count": 4
+  },
+  "show_notification": true
+}

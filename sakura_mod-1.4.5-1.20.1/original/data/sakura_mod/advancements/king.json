@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_block" },
+    "title": { "translate": "advancements.sakura_mod.king.title" },
+    "description": { "translate": "advancements.sakura_mod.king.description" },
+    "frame": "challenge"
+  },
+  "parent": "sakura_mod:legendary_metal",
+  "criteria": {
+    "eat_block": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": { "items": ["sakura_mod:sakura_block"] }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

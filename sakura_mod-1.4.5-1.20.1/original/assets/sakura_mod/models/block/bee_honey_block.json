@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "minecraft:block/blast_furnace_top",
+    "front": "sakura_mod:block/chicken_coop_side",
+    "particle": "sakura_mod:block/chicken_coop_side",
+    "side": "sakura_mod:block/chicken_coop_side",
+    "top": "minecraft:block/beehive_end"
+  }
+}

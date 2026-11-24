@@ -1,0 +1,16 @@
+{
+  "values": [
+    "sakura_mod:sakura_block",
+    "sakura_mod:sakura_component",
+    "sakura_mod:sakura_amulet",
+    "sakura_mod:sakura_helmet",
+    "sakura_mod:sakura_chestplate",
+    "sakura_mod:sakura_leggings",
+    "sakura_mod:sakura_boots",
+    "sakura_mod:sakura_sword",
+    "sakura_mod:sakura_axe",
+    "sakura_mod:sakura_shovel",
+    "sakura_mod:sakura_pickaxe",
+    "sakura_mod:sakura_hoe"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LBL",
+    "HSH",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:planks"
+    },
+    "H": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:string_farm"
+  },
+  "show_notification": true
+}

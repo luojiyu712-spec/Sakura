@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sakura_mod:sakura_star"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "sakura_mod:sakura_diamond"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "sakura_mod:block/string_farm_bottom",
+    "front": "sakura_mod:block/string_farm_front",
+    "side": "sakura_mod:block/string_farm_side",
+    "top": "sakura_mod:block/string_farm_top"
+  }
+}

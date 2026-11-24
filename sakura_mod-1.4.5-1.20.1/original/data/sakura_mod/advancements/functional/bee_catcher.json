@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:bee_box" },
+    "title": { "translate": "advancements.sakura_mod.functional.bee_catcher.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.bee_catcher.description" },
+    "frame": "task"
+  },
+  "parent": "sakura_mod:root",
+  "criteria": {
+    "capture": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_helmet" },
+    "title": { "translate": "advancements.sakura_mod.divine_help.title" },
+    "description": { "translate": "advancements.sakura_mod.divine_help.description" },
+    "frame": "challenge"
+  },
+  "parent": "sakura_mod:wealthy_armor",
+  "criteria": {
+    "helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_helmet"] }] }
+    },
+    "chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_chestplate"] }] }
+    },
+    "leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_leggings"] }] }
+    },
+    "boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_boots"] }] }
+    }
+  },
+  "requirements": [
+    ["helmet"], ["chestplate"], ["leggings"], ["boots"]
+  ]
+}

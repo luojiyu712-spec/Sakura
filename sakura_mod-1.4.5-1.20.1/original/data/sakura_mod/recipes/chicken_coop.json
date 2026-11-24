@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LLL",
+    "LHL",
+    "SSS"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:planks"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:chicken_coop"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    " B ",
+    "BBB"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cake"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:neoforge",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "sakura_mod:block/controller/controller_block_lights",
+  "textures": {
+    "block": "sakura_mod:block/controller_powered",
+    "lights": "sakura_mod:block/controller_conflict"
+  }
+}

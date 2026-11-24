@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "sakura_mod:sakura_block"
+    },
+    "C": {
+      "item": "sakura_mod:sakura_component"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:sakura_helmet"
+  }
+}

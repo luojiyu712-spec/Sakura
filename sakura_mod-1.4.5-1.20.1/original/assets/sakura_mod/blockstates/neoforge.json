@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "sakura_mod:block/neoforge",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "sakura_mod:block/neoforge",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "sakura_mod:block/neoforge"
+    },
+    "facing=west": {
+      "model": "sakura_mod:block/neoforge",
+      "y": 90
+    }
+  }
+}

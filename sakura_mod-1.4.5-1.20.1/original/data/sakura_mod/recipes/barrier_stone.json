@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OSO",
+    "SDS",
+    "OSO"
+  ],
+  "key": {
+    "O": { "item": "minecraft:obsidian" },
+    "S": { "item": "minecraft:iron_ingot" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "sakura_mod:barrier_stone",
+    "count": 1
+  }
+}

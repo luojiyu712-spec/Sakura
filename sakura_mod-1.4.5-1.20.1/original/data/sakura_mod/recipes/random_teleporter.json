@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ISI",
+    "GLG",
+    "IHI"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:ender_pearl"
+    },
+    "H": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "sakura_mod:sakura_ingot"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:random_teleporter"
+  },
+  "show_notification": true
+}

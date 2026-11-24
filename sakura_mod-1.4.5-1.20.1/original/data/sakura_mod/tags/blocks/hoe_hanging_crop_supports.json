@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "kaleidoscope_tavern:grapevine_trellis", "required": false },
+    { "id": "kaleidoscope_tavern:ice_grapevine_trellis", "required": false },
+    { "id": "kaleidoscope_tavern:gold_grapevine_trellis", "required": false }
+  ]
+}

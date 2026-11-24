@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_hoe" },
+    "title": { "translate": "advancements.sakura_mod.emperor_hoe.title" },
+    "description": { "translate": "advancements.sakura_mod.emperor_hoe.description" },
+    "frame": "challenge"
+  },
+  "parent": "sakura_mod:legendary_metal",
+  "criteria": {
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_hoe"] }]
+      }
+    }
+  }
+}

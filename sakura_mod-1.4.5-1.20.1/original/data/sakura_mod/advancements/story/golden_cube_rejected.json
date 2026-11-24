@@ -1,0 +1,23 @@
+{
+  "parent": "sakura_mod:story/golden_cube_anomaly",
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancements.sakura_mod.story.golden_cube_rejected.title"
+    },
+    "description": {
+      "translate": "advancements.sakura_mod.story.golden_cube_rejected.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

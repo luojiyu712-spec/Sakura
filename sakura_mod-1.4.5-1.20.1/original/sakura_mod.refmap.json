@@ -1,0 +1,210 @@
+{
+  "mappings": {
+    "com/Luo_jiyv/SakuraMod/mixin/ItemStackMixin": {
+      "Lnet/minecraft/world/item/ItemStack;shrink(I)V": "Lnet/minecraft/world/item/ItemStack;m_41774_(I)V",
+      "enchant": "Lnet/minecraft/world/item/ItemStack;m_41663_(Lnet/minecraft/world/item/enchantment/Enchantment;I)V",
+      "addTagElement": "Lnet/minecraft/world/item/ItemStack;m_41700_(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)V",
+      "hurtAndBreak": "Lnet/minecraft/world/item/ItemStack;m_41622_(ILnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V",
+      "setTag": "Lnet/minecraft/world/item/ItemStack;m_41751_(Lnet/minecraft/nbt/CompoundTag;)V",
+      "hurt": "Lnet/minecraft/world/item/ItemStack;m_220157_(ILnet/minecraft/util/RandomSource;Lnet/minecraft/server/level/ServerPlayer;)Z"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/SoundManagerAccessor": {
+      "soundEngine": "f_120349_:Lnet/minecraft/client/sounds/SoundEngine;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/SoundEngineAccessor": {
+      "instanceToChannel": "f_120226_:Ljava/util/Map;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/MobSunBurnMixin": {
+      "isSunBurnTick": "Lnet/minecraft/world/entity/Mob;m_21527_()Z"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/SoundManagerMusicReloadMixin": {
+      "apply(Lnet/minecraft/client/sounds/SoundManager$Preparations;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V": "Lnet/minecraft/client/sounds/SoundManager;m_5787_(Lnet/minecraft/client/sounds/SoundManager$Preparations;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/LevelMistSkyDarkenMixin": {
+      "getSkyDarken": "Lnet/minecraft/world/level/Level;m_7445_()I"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/SakuraBladeDamageMixin": {
+      "hurt": "m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/AttributesMixin": {
+      "Lnet/minecraft/world/entity/ai/attributes/Attributes;ARMOR:Lnet/minecraft/world/entity/ai/attributes/Attribute;": "Lnet/minecraft/world/entity/ai/attributes/Attributes;f_22284_:Lnet/minecraft/world/entity/ai/attributes/Attribute;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/SoundPreparationsAccessor": {
+      "soundCache": "f_244128_:Ljava/util/Map;",
+      "registry": "f_120413_:Ljava/util/Map;",
+      "net.minecraft.client.sounds.SoundManager$Preparations": "net/minecraft/client/sounds/SoundManager$Preparations"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ElytraItemMixin": {
+      "Lnet/minecraft/world/item/ItemStack;hurtAndBreak(ILnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V": "Lnet/minecraft/world/item/ItemStack;m_41622_(ILnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ServerLevelEntityAccessor": {
+      "entityManager": "f_143244_:Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;",
+      "entityTickList": "f_143243_:Lnet/minecraft/world/level/entity/EntityTickList;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ChunkMapEntityAccessor": {
+      "entityMap": "f_140150_:Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/WeatherPrecipitationTextureMixin": {
+      "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V",
+      "renderSnowAndRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109703_(Lnet/minecraft/client/renderer/LightTexture;FDDD)V",
+      "Lnet/minecraft/client/multiplayer/ClientLevel;addParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_7106_(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/MenuCapsuleMixin": {
+      "clicked": "Lnet/minecraft/world/inventory/AbstractContainerMenu;m_150399_(IILnet/minecraft/world/inventory/ClickType;Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ServerChunkCacheInvoker": {
+      "getVisibleChunkIfPresent": "m_8364_(J)Lnet/minecraft/server/level/ChunkHolder;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/BossHealthOverlayAccessor": {
+      "events": "f_93699_:Ljava/util/Map;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/SmithingTransformRecipeAccessor": {
+      "template": "f_265949_:Lnet/minecraft/world/item/crafting/Ingredient;",
+      "base": "f_265888_:Lnet/minecraft/world/item/crafting/Ingredient;",
+      "addition": "f_265907_:Lnet/minecraft/world/item/crafting/Ingredient;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/MusicPlayerMixin": {
+      "tick": "Lnet/minecraft/client/sounds/MusicManager;m_120183_()V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ChunkGeneratorStructureStateAccessor": {
+      "ringPositions": "f_254674_:Ljava/util/Map;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ItemEntityMixin": {
+      "hurt": "Lnet/minecraft/world/entity/item/ItemEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ShieldPlayerHealthMixin": {
+      "Lnet/minecraft/world/entity/player/Player;setHealth(F)V": "Lnet/minecraft/world/entity/player/Player;m_21153_(F)V",
+      "actuallyHurt": "Lnet/minecraft/world/entity/player/Player;m_6475_(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+      "readAdditionalSaveData": "Lnet/minecraft/world/entity/player/Player;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/NaturalSpawnerMistMixin": {
+      "spawnCategoryForChunk": "Lnet/minecraft/world/level/NaturalSpawner;m_47045_(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/WeatherSkyColorMixin": {
+      "getSkyColor": "Lnet/minecraft/client/multiplayer/ClientLevel;m_171660_(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;",
+      "getCloudColor": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104808_(F)Lnet/minecraft/world/phys/Vec3;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/ShieldHealthMixin": {
+      "actuallyHurt": "Lnet/minecraft/world/entity/LivingEntity;m_6475_(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+      "Lnet/minecraft/world/entity/LivingEntity;setHealth(F)V": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V",
+      "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/MistWeatherCommandMixin": {
+      "setRain": "Lnet/minecraft/server/commands/WeatherCommand;m_139177_(Lnet/minecraft/commands/CommandSourceStack;I)I",
+      "setClear": "Lnet/minecraft/server/commands/WeatherCommand;m_139172_(Lnet/minecraft/commands/CommandSourceStack;I)I",
+      "setThunder": "Lnet/minecraft/server/commands/WeatherCommand;m_139182_(Lnet/minecraft/commands/CommandSourceStack;I)I"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/EntityRemovalReasonAccessor": {
+      "removalReason": "f_146795_:Lnet/minecraft/world/entity/Entity$RemovalReason;",
+      "levelCallback": "f_146801_:Lnet/minecraft/world/level/entity/EntityInLevelCallback;"
+    },
+    "com/Luo_jiyv/SakuraMod/mixin/SakuraSteelFortuneMixin": {
+      "getItemEnchantmentLevel": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/Luo_jiyv/SakuraMod/mixin/ItemStackMixin": {
+        "Lnet/minecraft/world/item/ItemStack;shrink(I)V": "Lnet/minecraft/world/item/ItemStack;m_41774_(I)V",
+        "enchant": "Lnet/minecraft/world/item/ItemStack;m_41663_(Lnet/minecraft/world/item/enchantment/Enchantment;I)V",
+        "addTagElement": "Lnet/minecraft/world/item/ItemStack;m_41700_(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)V",
+        "hurtAndBreak": "Lnet/minecraft/world/item/ItemStack;m_41622_(ILnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V",
+        "setTag": "Lnet/minecraft/world/item/ItemStack;m_41751_(Lnet/minecraft/nbt/CompoundTag;)V",
+        "hurt": "Lnet/minecraft/world/item/ItemStack;m_220157_(ILnet/minecraft/util/RandomSource;Lnet/minecraft/server/level/ServerPlayer;)Z"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/SoundManagerAccessor": {
+        "soundEngine": "f_120349_:Lnet/minecraft/client/sounds/SoundEngine;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/SoundEngineAccessor": {
+        "instanceToChannel": "f_120226_:Ljava/util/Map;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/MobSunBurnMixin": {
+        "isSunBurnTick": "Lnet/minecraft/world/entity/Mob;m_21527_()Z"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/SoundManagerMusicReloadMixin": {
+        "apply(Lnet/minecraft/client/sounds/SoundManager$Preparations;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V": "Lnet/minecraft/client/sounds/SoundManager;m_5787_(Lnet/minecraft/client/sounds/SoundManager$Preparations;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/LevelMistSkyDarkenMixin": {
+        "getSkyDarken": "Lnet/minecraft/world/level/Level;m_7445_()I"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/SakuraBladeDamageMixin": {
+        "hurt": "m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/AttributesMixin": {
+        "Lnet/minecraft/world/entity/ai/attributes/Attributes;ARMOR:Lnet/minecraft/world/entity/ai/attributes/Attribute;": "Lnet/minecraft/world/entity/ai/attributes/Attributes;f_22284_:Lnet/minecraft/world/entity/ai/attributes/Attribute;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/SoundPreparationsAccessor": {
+        "soundCache": "f_244128_:Ljava/util/Map;",
+        "registry": "f_120413_:Ljava/util/Map;",
+        "net.minecraft.client.sounds.SoundManager$Preparations": "net/minecraft/client/sounds/SoundManager$Preparations"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ElytraItemMixin": {
+        "Lnet/minecraft/world/item/ItemStack;hurtAndBreak(ILnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V": "Lnet/minecraft/world/item/ItemStack;m_41622_(ILnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ServerLevelEntityAccessor": {
+        "entityManager": "f_143244_:Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;",
+        "entityTickList": "f_143243_:Lnet/minecraft/world/level/entity/EntityTickList;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ChunkMapEntityAccessor": {
+        "entityMap": "f_140150_:Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/WeatherPrecipitationTextureMixin": {
+        "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V",
+        "renderSnowAndRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109703_(Lnet/minecraft/client/renderer/LightTexture;FDDD)V",
+        "Lnet/minecraft/client/multiplayer/ClientLevel;addParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_7106_(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/MenuCapsuleMixin": {
+        "clicked": "Lnet/minecraft/world/inventory/AbstractContainerMenu;m_150399_(IILnet/minecraft/world/inventory/ClickType;Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ServerChunkCacheInvoker": {
+        "getVisibleChunkIfPresent": "m_8364_(J)Lnet/minecraft/server/level/ChunkHolder;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/BossHealthOverlayAccessor": {
+        "events": "f_93699_:Ljava/util/Map;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/SmithingTransformRecipeAccessor": {
+        "template": "f_265949_:Lnet/minecraft/world/item/crafting/Ingredient;",
+        "base": "f_265888_:Lnet/minecraft/world/item/crafting/Ingredient;",
+        "addition": "f_265907_:Lnet/minecraft/world/item/crafting/Ingredient;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/MusicPlayerMixin": {
+        "tick": "Lnet/minecraft/client/sounds/MusicManager;m_120183_()V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ChunkGeneratorStructureStateAccessor": {
+        "ringPositions": "f_254674_:Ljava/util/Map;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ItemEntityMixin": {
+        "hurt": "Lnet/minecraft/world/entity/item/ItemEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ShieldPlayerHealthMixin": {
+        "Lnet/minecraft/world/entity/player/Player;setHealth(F)V": "Lnet/minecraft/world/entity/player/Player;m_21153_(F)V",
+        "actuallyHurt": "Lnet/minecraft/world/entity/player/Player;m_6475_(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+        "readAdditionalSaveData": "Lnet/minecraft/world/entity/player/Player;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/NaturalSpawnerMistMixin": {
+        "spawnCategoryForChunk": "Lnet/minecraft/world/level/NaturalSpawner;m_47045_(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/WeatherSkyColorMixin": {
+        "getSkyColor": "Lnet/minecraft/client/multiplayer/ClientLevel;m_171660_(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;",
+        "getCloudColor": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104808_(F)Lnet/minecraft/world/phys/Vec3;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/ShieldHealthMixin": {
+        "actuallyHurt": "Lnet/minecraft/world/entity/LivingEntity;m_6475_(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+        "Lnet/minecraft/world/entity/LivingEntity;setHealth(F)V": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V",
+        "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/MistWeatherCommandMixin": {
+        "setRain": "Lnet/minecraft/server/commands/WeatherCommand;m_139177_(Lnet/minecraft/commands/CommandSourceStack;I)I",
+        "setClear": "Lnet/minecraft/server/commands/WeatherCommand;m_139172_(Lnet/minecraft/commands/CommandSourceStack;I)I",
+        "setThunder": "Lnet/minecraft/server/commands/WeatherCommand;m_139182_(Lnet/minecraft/commands/CommandSourceStack;I)I"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/EntityRemovalReasonAccessor": {
+        "removalReason": "f_146795_:Lnet/minecraft/world/entity/Entity$RemovalReason;",
+        "levelCallback": "f_146801_:Lnet/minecraft/world/level/entity/EntityInLevelCallback;"
+      },
+      "com/Luo_jiyv/SakuraMod/mixin/SakuraSteelFortuneMixin": {
+        "getItemEnchantmentLevel": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+      }
+    }
+  }
+}

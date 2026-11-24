@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:pink_petals" },
+    "title": { "translate": "advancements.sakura_mod.first_glimpse.title" },
+    "description": { "translate": "advancements.sakura_mod.first_glimpse.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sakura_mod:legendary_metal",
+  "criteria": {
+    "get_blessing": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "sakura_mod:sakura_blessing": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "sakura_mod:story/golden_cube_anomaly",
+  "display": {
+    "icon": {
+      "item": "sakura_mod:golden_cube"
+    },
+    "title": {
+      "translate": "advancements.sakura_mod.story.golden_cube_survivor.title"
+    },
+    "description": {
+      "translate": "advancements.sakura_mod.story.golden_cube_survivor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

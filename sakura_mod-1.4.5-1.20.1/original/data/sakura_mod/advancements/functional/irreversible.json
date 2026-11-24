@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:ghast_tear" },
+    "title": { "translate": "advancements.sakura_mod.functional.irreversible.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.irreversible.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "sakura_mod:functional/soul_retrieval",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

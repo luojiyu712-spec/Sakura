@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "create_jetpack" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BIF",
+    "IEI",
+    "FIN"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:elytra"
+    },
+    "I": {
+      "item": "sakura_mod:sakura_ingot"
+    },
+    "B": {
+      "item": "sakura_mod:sakura_block"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "N": {
+      "item": "create_jetpack:netherite_jetpack"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:flight_bracelet"
+  },
+  "show_notification": true
+}

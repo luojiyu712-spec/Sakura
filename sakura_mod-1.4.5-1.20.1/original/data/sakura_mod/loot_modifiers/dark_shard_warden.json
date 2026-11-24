@@ -1,0 +1,7 @@
+{
+  "type": "sakura_mod:sakura_loot",
+  "conditions": [ { "condition": "minecraft:killed_by_player" } ],
+  "item": "sakura_mod:dark_transcendent_shard",
+  "chance": 1.0,
+  "drop_from": "warden"
+}

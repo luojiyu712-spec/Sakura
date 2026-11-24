@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "sakura_mod:block/blazing_rock_casing",
+    "casing": "sakura_mod:block/blazing_rock_casing",
+    "grate": "sakura_mod:block/blazing_rock_grate",
+    "still_lava": "minecraft:block/lava_still",
+    "flowing_lava": "minecraft:block/lava_flow"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#casing", "cullface": "down" },
+        "up":    { "texture": "#casing", "cullface": "up" },
+        "north": { "texture": "#casing", "cullface": "north" },
+        "south": { "texture": "#casing", "cullface": "south" },
+        "west":  { "texture": "#casing", "cullface": "west" },
+        "east":  { "texture": "#casing", "cullface": "east" }
+      }
+    },
+    {
+      "from": [0.25, 0.25, 0.25],
+      "to": [15.75, 15.75, 15.75],
+      "faces": {
+        "down":  { "texture": "#grate", "uv": [0, 0, 16, 16], "cullface": "down" },
+        "up":    { "texture": "#grate", "uv": [0, 0, 16, 16], "cullface": "up" },
+        "north": { "texture": "#grate", "uv": [0, 0, 16, 16], "cullface": "north" },
+        "south": { "texture": "#grate", "uv": [0, 0, 16, 16], "cullface": "south" },
+        "west":  { "texture": "#grate", "uv": [0, 0, 16, 16], "cullface": "west" },
+        "east":  { "texture": "#grate", "uv": [0, 0, 16, 16], "cullface": "east" }
+      }
+    },
+    {
+      "from": [0.5, 0.5, 0.5],
+      "to": [15.5, 15.5, 15.5],
+      "shade": false,
+      "forge_data": { "block_light": 15, "ambient_occlusion": false },
+      "faces": {
+        "down":  { "texture": "#still_lava", "uv": [0, 0, 16, 16], "cullface": "down" },
+        "up":    { "texture": "#still_lava", "uv": [0, 0, 16, 16], "cullface": "up" },
+        "north": { "texture": "#flowing_lava", "uv": [0, 0, 8, 8], "cullface": "north" },
+        "south": { "texture": "#flowing_lava", "uv": [0, 0, 8, 8], "cullface": "south" },
+        "west":  { "texture": "#flowing_lava", "uv": [0, 0, 8, 8], "cullface": "west" },
+        "east":  { "texture": "#flowing_lava", "uv": [0, 0, 8, 8], "cullface": "east" }
+      }
+    }
+  ]
+}

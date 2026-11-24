@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GHG",
+    "CGL",
+    "GBG"
+  ],
+  "key": {
+    "H": {
+      "item": "sakura_mod:sakura_helmet"
+    },
+    "C": {
+      "item": "sakura_mod:sakura_chestplate"
+    },
+    "L": {
+      "item": "sakura_mod:sakura_leggings"
+    },
+    "B": {
+      "item": "sakura_mod:sakura_boots"
+    },
+    "G": {
+      "item": "sakura_mod:sakura_component"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:sakura_amulet"
+  },
+  "show_notification": true
+}

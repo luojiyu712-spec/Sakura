@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_chestplate" },
+    "title": { "translate": "advancements.sakura_mod.wealthy_armor.title" },
+    "description": { "translate": "advancements.sakura_mod.wealthy_armor.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sakura_mod:legendary_metal",
+  "criteria": {
+    "helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_helmet"] }]
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_chestplate"] }]
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_leggings"] }]
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["sakura_mod:sakura_boots"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["helmet", "chestplate", "leggings", "boots"]
+  ]
+}

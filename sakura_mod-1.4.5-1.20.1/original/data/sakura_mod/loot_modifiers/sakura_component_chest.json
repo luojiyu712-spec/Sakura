@@ -1,0 +1,15 @@
+{
+  "type": "sakura_mod:sakura_loot",
+  "conditions": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "forge:loot_table_id",
+        "loot_table_id": "minecraft:chests/bastion_treasure"
+      }
+    }
+  ],
+  "item": "sakura_mod:sakura_component",
+  "chance": 0.05,
+  "drop_from": "chest"
+}

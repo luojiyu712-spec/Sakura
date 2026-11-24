@@ -1,0 +1,7 @@
+{
+  "type": "sakura_mod:sakura_loot",
+  "conditions": [],
+  "item": "sakura_mod:archite_capsule",
+  "chance": 0.05,
+  "drop_from": "chest_plain"
+}

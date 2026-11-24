@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "create" }
+  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "SBBBS",
+    "BCCCB",
+    "BCCCB",
+    "BCCCB",
+    "SBBBS"
+  ],
+  "key": {
+    "S": { "item": "sakura_mod:sakura_ingot" },
+    "B": { "item": "create:brass_ingot" },
+    "C": { "item": "create:mechanical_crafter" }
+  },
+  "result": {
+    "item": "sakura_mod:molecular_assembler",
+    "count": 1
+  }
+}

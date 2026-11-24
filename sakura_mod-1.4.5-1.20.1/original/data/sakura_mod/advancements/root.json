@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_coin" },
+    "title": { "translate": "advancements.sakura_mod.root.title" },
+    "description": { "translate": "advancements.sakura_mod.root.description" },
+    "background": "sakura_mod:textures/gui/sakura_advancement_root.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sakura_mod:money/sakura_coin",
+      "sakura_mod:money/sakura_ingot",
+      "sakura_mod:money/sakura_diamond",
+      "sakura_mod:money/sakura_star",
+      "sakura_mod:money/sakura_block",
+      "sakura_mod:money/sakura_coins",
+      "sakura_mod:money/sakura_ingots",
+      "sakura_mod:money/sakura_diamonds",
+      "sakura_mod:money/sakura_stars",
+      "sakura_mod:money/sakura_blocks",
+      "sakura_mod:chicken_coop",
+      "sakura_mod:string_farm",
+      "sakura_mod:bee_honey_block",
+      "sakura_mod:bee_box",
+      "sakura_mod:hencoop",
+      "sakura_mod:sakura_helmet",
+      "sakura_mod:sakura_chestplate",
+      "sakura_mod:sakura_leggings",
+      "sakura_mod:sakura_boots",
+      "sakura_mod:sakura_axe",
+      "sakura_mod:sakura_boots",
+      "sakura_mod:sakura_chestplate",
+      "sakura_mod:sakura_component",
+      "sakura_mod:sakura_helmet",
+      "sakura_mod:sakura_hoe",
+      "sakura_mod:sakura_pickaxe",
+      "sakura_mod:sakura_shovel",
+      "sakura_mod:sakura_sword",
+      "sakura_mod:cobble_generator",
+      "sakura_mod:blazing_rock",
+      "sakura_mod:sakura_repair_kit",
+      "sakura_mod:sakura_amulet",
+      "sakura_mod:random_teleporter",
+      "sakura_mod:gravcore",
+      "sakura_mod:flight_bracelet",
+      "sakura_mod:barrier_stone",
+      "sakura_mod:pvp_license"
+    ]
+  }
+
+}

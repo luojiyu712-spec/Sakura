@@ -1,0 +1,6 @@
+{
+  "type": "sakura_mod:nullification",
+  "main_hand": { "item": "sakura_mod:dark_transcendent_shard" },
+  "off_hand": { "item": "sakura_mod:golden_cube" },
+  "result": { "item": "minecraft:gold_block", "count": 1 }
+}

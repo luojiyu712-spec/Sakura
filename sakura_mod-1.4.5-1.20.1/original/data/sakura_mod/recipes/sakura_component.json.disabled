@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sakura_mod:sakura_block"
+    },
+    "S": {
+      "item": "sakura_mod:sakura_component"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "sakura_mod:sakura_component2",
+    "count": 2
+  }
+}

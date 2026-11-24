@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.Luo_jiyv.SakuraMod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "sakura_mod.refmap.json",
+  "mixins": [
+    "AttributesMixin",
+    "ItemEntityMixin",
+    "ItemStackMixin",
+    "ElytraItemMixin",
+    "SakuraBladeDamageMixin",
+    "ShieldHealthMixin",
+    "ShieldPlayerHealthMixin",
+    "CuriosRingSlotsMixin",
+    "SakuraSteelFortuneMixin",
+    "MenuCapsuleMixin",
+    "TaczBulletStatsMixin",
+    "GunDamageContextMixin",
+    "TaczRecoilPairInvoker",
+    "MobSunBurnMixin",
+    "MistWeatherCommandMixin",
+    "NaturalSpawnerMistMixin",
+    "LevelMistSkyDarkenMixin",
+    "EntityRemovalReasonAccessor",
+    "ServerLevelEntityAccessor",
+    "ChunkMapEntityAccessor",
+    "PersistentEntitySectionManagerMixin",
+    "SmithingTransformRecipeAccessor",
+    "ServerChunkCacheInvoker",
+    "ChunkGeneratorStructureStateAccessor"
+  ],
+  "client": [
+    "RuOKParticleCullingMixin",
+    "TaczEffectiveRangeDisplayMixin",
+    "ClientGunTooltipMixin",
+    "TaczCameraRecoilMixin",
+    "WeatherSkyColorMixin",
+    "WeatherPrecipitationTextureMixin",
+    "MusicPlayerMixin",
+    "SoundManagerAccessor",
+    "SoundManagerMusicReloadMixin",
+    "SoundPreparationsAccessor",
+    "SoundEngineAccessor",
+    "BossHealthOverlayAccessor"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

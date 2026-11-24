@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "entries": [
+    "sakura_mod:sakura_component_chest",
+    "sakura_mod:sakura_component_bastion_treasure",
+    "sakura_mod:archite_capsule_chest",
+    "sakura_mod:archite_capsule_ancient_city",
+    "sakura_mod:dark_shard_drop",
+    "sakura_mod:dark_shard_warden",
+    "sakura_mod:sakura_coin_drop",
+    "sakura_mod:sakura_ingot_drop",
+    "sakura_mod:twisted_meat_drop",
+    "sakura_mod:sakura_vein_drop"
+  ]
+}

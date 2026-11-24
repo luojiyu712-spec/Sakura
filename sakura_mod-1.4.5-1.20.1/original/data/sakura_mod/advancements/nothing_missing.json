@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_sword" },
+    "title": { "translate": "advancements.sakura_mod.nothing_missing.title" },
+    "description": { "translate":"advancements.sakura_mod.nothing_missing.description"},
+    "frame": "challenge"
+  },
+  "parent": "sakura_mod:divine_help",
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_sword"] }] }
+    },
+    "axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_axe"] }] }
+    },
+    "shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_shovel"] }] }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_pickaxe"] }] }
+    },
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_hoe"] }] }
+    },
+    "helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_helmet"] }] }
+    },
+    "chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_chestplate"] }] }
+    },
+    "leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_leggings"] }] }
+    },
+    "boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["sakura_mod:sakura_boots"] }] }
+    }
+  },
+  "requirements": [
+    ["sword"], ["axe"], ["shovel"], ["pickaxe"], ["hoe"],
+    ["helmet"], ["chestplate"], ["leggings"], ["boots"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:sakura_coin" },
+    "title": { "translate": "advancements.sakura_mod.money.first_coin.title" },
+    "description": { "translate": "advancements.sakura_mod.money.first_coin.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sakura_mod:root",
+  "criteria": {
+    "get_coin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["sakura_mod:sakura_coin"] }
+        ]
+      }
+    }
+  }
+}

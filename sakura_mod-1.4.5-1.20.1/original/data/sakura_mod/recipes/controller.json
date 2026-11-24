@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    { "type": "forge:item_exists", "item": "createaddition:modular_accumulator" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "createaddition:modular_accumulator" }
+  },
+  "result": { "item": "sakura_mod:controller" }
+}

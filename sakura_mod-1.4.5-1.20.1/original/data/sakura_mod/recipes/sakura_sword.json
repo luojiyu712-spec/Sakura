@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "sakura_mod:sakura_component" },
+  "base": { "item": "minecraft:netherite_sword" },
+  "addition": { "item": "sakura_mod:sakura_block" },
+  "result": { "item": "sakura_mod:sakura_sword" }
+}

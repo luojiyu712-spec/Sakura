@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sakura_mod:item/hencoop_empty"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "sakura_mod:chicken_coop_state": 1.0
+      },
+      "model": "sakura_mod:item/hencoop_has_chickens"
+    },
+    {
+      "predicate": {
+        "sakura_mod:chicken_coop_state": 2.0
+      },
+      "model": "sakura_mod:item/hencoop_has_chickenss"
+    },
+    {
+      "predicate": {
+        "sakura_mod:chicken_coop_state": 3.0
+      },
+      "model": "sakura_mod:item/hencoop_full"
+    }
+  ]
+}

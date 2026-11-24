@@ -1,0 +1,9 @@
+{
+  "type": "sakura_mod:twisted_meat_drop",
+  "conditions": [],
+  "item": "sakura_mod:twisted_meat_raw",
+  "chance": 0.05,
+  "mist_chance": 0.60,
+  "min_count": 1,
+  "max_count": 3
+}

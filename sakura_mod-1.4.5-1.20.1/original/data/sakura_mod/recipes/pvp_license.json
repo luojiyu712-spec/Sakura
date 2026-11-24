@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:paper" },
+    { "item": "minecraft:pink_petals" }
+  ],
+  "result": {
+    "item": "sakura_mod:pvp_license",
+    "count": 1
+  }
+}

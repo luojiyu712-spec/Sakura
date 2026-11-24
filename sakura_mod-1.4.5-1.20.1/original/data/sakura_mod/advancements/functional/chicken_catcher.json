@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "item": "sakura_mod:hencoop" },
+    "title": { "translate": "advancements.sakura_mod.functional.chicken_catcher.title" },
+    "description": { "translate": "advancements.sakura_mod.functional.chicken_catcher.description" },
+    "frame": "task"
+  },
+  "parent": "sakura_mod:root",
+  "criteria": {
+    "capture": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
